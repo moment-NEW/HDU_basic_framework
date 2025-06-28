@@ -253,7 +253,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EB4nh91A7E_JD2Sifpeh-24" value="底盘" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="880" width="810" height="410" as="geometry" />
+          <mxGeometry x="100" y="880" width="810" height="440" as="geometry" />
         </mxCell>
         <mxCell id="EB4nh91A7E_JD2Sifpeh-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="EB4nh91A7E_JD2Sifpeh-24" target="EB4nh91A7E_JD2Sifpeh-27">
           <mxGeometry relative="1" as="geometry">
@@ -301,6 +301,14 @@
         <mxCell id="EB4nh91A7E_JD2Sifpeh-37" value="主控模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EB4nh91A7E_JD2Sifpeh-24">
           <mxGeometry x="20" y="175" width="80" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="EB4nh91A7E_JD2Sifpeh-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;endArrow=diamond;endFill=0;" edge="1" parent="EB4nh91A7E_JD2Sifpeh-24" source="EB4nh91A7E_JD2Sifpeh-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EB4nh91A7E_JD2Sifpeh-46" value="装甲板" style="whiteSpace=wrap;html=1;" vertex="1" parent="EB4nh91A7E_JD2Sifpeh-24">
+          <mxGeometry x="530" y="410" width="160" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="EB4nh91A7E_JD2Sifpeh-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="EB4nh91A7E_JD2Sifpeh-27" target="EB4nh91A7E_JD2Sifpeh-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -316,11 +324,31 @@
         <mxCell id="EB4nh91A7E_JD2Sifpeh-32" value="没有声明的情况下，默认红色正极，蓝色负极，均为XT30供电线。虚线表示信号线,点线表示航空线" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="180" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EB4nh91A7E_JD2Sifpeh-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="EB4nh91A7E_JD2Sifpeh-39" target="EB4nh91A7E_JD2Sifpeh-34">
+        <mxCell id="EB4nh91A7E_JD2Sifpeh-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=diamond;endFill=0;dashed=1;dashPattern=1 1;" edge="1" parent="1" target="EB4nh91A7E_JD2Sifpeh-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="1050" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EB4nh91A7E_JD2Sifpeh-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;endArrow=diamond;endFill=0;" edge="1" parent="1" source="EB4nh91A7E_JD2Sifpeh-41" target="EB4nh91A7E_JD2Sifpeh-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EB4nh91A7E_JD2Sifpeh-39" value="装甲板" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="970" width="50" height="160" as="geometry" />
+        <mxCell id="EB4nh91A7E_JD2Sifpeh-41" value="装甲板" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="850" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EB4nh91A7E_JD2Sifpeh-43" value="装甲板" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="980" width="50" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="EB4nh91A7E_JD2Sifpeh-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.627;entryY=0.996;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;endArrow=diamond;endFill=0;entryPerimeter=0;" edge="1" parent="1" source="EB4nh91A7E_JD2Sifpeh-44" target="EB4nh91A7E_JD2Sifpeh-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="1090" />
+              <mxPoint x="830" y="1130" />
+              <mxPoint x="726" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EB4nh91A7E_JD2Sifpeh-44" value="装甲板" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1005" width="50" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
