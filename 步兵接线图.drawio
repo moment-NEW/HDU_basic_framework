@@ -10,9 +10,6 @@
         <mxCell id="6ucZ4N3q14ly0Ma9brnI-2" value="云台" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="6ucZ4N3q14ly0Ma9brnI-1">
           <mxGeometry y="10" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6ucZ4N3q14ly0Ma9brnI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="6ucZ4N3q14ly0Ma9brnI-1" source="6ucZ4N3q14ly0Ma9brnI-4" target="6ucZ4N3q14ly0Ma9brnI-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="6ucZ4N3q14ly0Ma9brnI-4" value="C板" style="whiteSpace=wrap;html=1;" vertex="1" parent="6ucZ4N3q14ly0Ma9brnI-1">
           <mxGeometry x="300" y="60" width="120" height="60" as="geometry" />
         </mxCell>
@@ -31,10 +28,20 @@
         <mxCell id="6ucZ4N3q14ly0Ma9brnI-11" value="2006" style="whiteSpace=wrap;html=1;" vertex="1" parent="6ucZ4N3q14ly0Ma9brnI-7">
           <mxGeometry x="55" y="70" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6ucZ4N3q14ly0Ma9brnI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="6ucZ4N3q14ly0Ma9brnI-1" source="6ucZ4N3q14ly0Ma9brnI-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="150" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="6ucZ4N3q14ly0Ma9brnI-16" value="小云台" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="6ucZ4N3q14ly0Ma9brnI-1">
+          <mxGeometry x="490" y="120" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6ucZ4N3q14ly0Ma9brnI-17" value="4310" style="whiteSpace=wrap;html=1;" vertex="1" parent="6ucZ4N3q14ly0Ma9brnI-16">
+          <mxGeometry x="45" y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6ucZ4N3q14ly0Ma9brnI-19" value="6020" style="whiteSpace=wrap;html=1;" vertex="1" parent="6ucZ4N3q14ly0Ma9brnI-16">
+          <mxGeometry x="45" y="80" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6ucZ4N3q14ly0Ma9brnI-20" value="分电板" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="440" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6ucZ4N3q14ly0Ma9brnI-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="6ucZ4N3q14ly0Ma9brnI-4" target="6ucZ4N3q14ly0Ma9brnI-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
