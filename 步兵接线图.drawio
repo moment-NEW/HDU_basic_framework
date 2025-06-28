@@ -474,6 +474,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="EB4nh91A7E_JD2Sifpeh-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="EB4nh91A7E_JD2Sifpeh-58" target="EB4nh91A7E_JD2Sifpeh-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="175" y="1360" />
+              <mxPoint x="485" y="1360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="EB4nh91A7E_JD2Sifpeh-58" value="底盘电调1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="1460" width="110" height="30" as="geometry" />
         </mxCell>
@@ -490,6 +498,14 @@
         </mxCell>
         <mxCell id="EB4nh91A7E_JD2Sifpeh-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="EB4nh91A7E_JD2Sifpeh-59" target="EB4nh91A7E_JD2Sifpeh-79">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EB4nh91A7E_JD2Sifpeh-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="EB4nh91A7E_JD2Sifpeh-59" target="EB4nh91A7E_JD2Sifpeh-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="332" y="1410" />
+              <mxPoint x="515" y="1410" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="EB4nh91A7E_JD2Sifpeh-59" value="底盘电调2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="1460" width="110" height="30" as="geometry" />
@@ -715,6 +731,32 @@
               <mxPoint x="510" y="1520" />
               <mxPoint x="510" y="1520" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EB4nh91A7E_JD2Sifpeh-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.143;entryY=0.938;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="EB4nh91A7E_JD2Sifpeh-79" target="EB4nh91A7E_JD2Sifpeh-119">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="627" y="1480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EB4nh91A7E_JD2Sifpeh-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.417;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="EB4nh91A7E_JD2Sifpeh-65" target="EB4nh91A7E_JD2Sifpeh-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EB4nh91A7E_JD2Sifpeh-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="6ucZ4N3q14ly0Ma9brnI-4" target="EB4nh91A7E_JD2Sifpeh-119">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-250" y="360" />
+              <mxPoint x="-250" y="1000" />
+              <mxPoint x="530" y="1000" />
+              <mxPoint x="530" y="1300" />
+              <mxPoint x="640" y="1300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EB4nh91A7E_JD2Sifpeh-141" value="CAN2底盘通信线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EB4nh91A7E_JD2Sifpeh-140">
+          <mxGeometry x="0.3494" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
