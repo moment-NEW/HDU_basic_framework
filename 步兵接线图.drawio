@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.6">
   <diagram name="第 1 页" id="aTCW8c7fX1OC72tKNPOs">
-    <mxGraphModel dx="937" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1102" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -308,6 +308,15 @@
         </mxCell>
         <mxCell id="EB4nh91A7E_JD2Sifpeh-46" value="装甲板" style="whiteSpace=wrap;html=1;" vertex="1" parent="EB4nh91A7E_JD2Sifpeh-24">
           <mxGeometry x="530" y="410" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EB4nh91A7E_JD2Sifpeh-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;endArrow=diamond;endFill=0;" edge="1" parent="EB4nh91A7E_JD2Sifpeh-24" source="EB4nh91A7E_JD2Sifpeh-48" target="EB4nh91A7E_JD2Sifpeh-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EB4nh91A7E_JD2Sifpeh-48" value="超级电容管理模块" style="whiteSpace=wrap;html=1;" vertex="1" parent="EB4nh91A7E_JD2Sifpeh-24">
+          <mxGeometry x="310" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EB4nh91A7E_JD2Sifpeh-49" value="超级电容" style="whiteSpace=wrap;html=1;" vertex="1" parent="EB4nh91A7E_JD2Sifpeh-24">
+          <mxGeometry x="310" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EB4nh91A7E_JD2Sifpeh-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="EB4nh91A7E_JD2Sifpeh-27" target="EB4nh91A7E_JD2Sifpeh-21">
           <mxGeometry relative="1" as="geometry" />
