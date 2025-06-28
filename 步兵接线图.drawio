@@ -37,6 +37,41 @@
         <mxCell id="6ucZ4N3q14ly0Ma9brnI-19" value="6020" style="whiteSpace=wrap;html=1;" vertex="1" parent="6ucZ4N3q14ly0Ma9brnI-16">
           <mxGeometry x="45" y="80" width="115" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="6ucZ4N3q14ly0Ma9brnI-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="6ucZ4N3q14ly0Ma9brnI-1" source="6ucZ4N3q14ly0Ma9brnI-22" target="6ucZ4N3q14ly0Ma9brnI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ucZ4N3q14ly0Ma9brnI-22" value="摩擦轮电调1" style="whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="6ucZ4N3q14ly0Ma9brnI-1">
+          <mxGeometry x="210" y="70" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6ucZ4N3q14ly0Ma9brnI-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="6ucZ4N3q14ly0Ma9brnI-1" source="6ucZ4N3q14ly0Ma9brnI-23" target="6ucZ4N3q14ly0Ma9brnI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ucZ4N3q14ly0Ma9brnI-23" value="摩擦轮电调2" style="whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="6ucZ4N3q14ly0Ma9brnI-1">
+          <mxGeometry x="210" y="280" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6ucZ4N3q14ly0Ma9brnI-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="6ucZ4N3q14ly0Ma9brnI-1" source="6ucZ4N3q14ly0Ma9brnI-30" target="6ucZ4N3q14ly0Ma9brnI-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ucZ4N3q14ly0Ma9brnI-30" value="拨弹盘电调" style="whiteSpace=wrap;html=1;" vertex="1" parent="6ucZ4N3q14ly0Ma9brnI-1">
+          <mxGeometry x="80" y="300" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6ucZ4N3q14ly0Ma9brnI-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="6ucZ4N3q14ly0Ma9brnI-20" target="6ucZ4N3q14ly0Ma9brnI-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ucZ4N3q14ly0Ma9brnI-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="6ucZ4N3q14ly0Ma9brnI-20" target="6ucZ4N3q14ly0Ma9brnI-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ucZ4N3q14ly0Ma9brnI-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="6ucZ4N3q14ly0Ma9brnI-20" target="6ucZ4N3q14ly0Ma9brnI-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ucZ4N3q14ly0Ma9brnI-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="6ucZ4N3q14ly0Ma9brnI-20" target="6ucZ4N3q14ly0Ma9brnI-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="620" />
+              <mxPoint x="235" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6ucZ4N3q14ly0Ma9brnI-20" value="分电板" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="440" width="100" height="30" as="geometry" />
         </mxCell>
