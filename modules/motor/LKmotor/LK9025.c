@@ -4,6 +4,7 @@
 #include "daemon.h"
 #include "bsp_dwt.h"
 #include "bsp_log.h"
+//测试
 
 static uint8_t idx;
 static LKMotorInstance *lkmotor_instance[LK_MOTOR_MX_CNT] = {NULL};

@@ -3,6 +3,13 @@
 #include "string.h"
 #include "bsp_log.h"
 
+#ifndef strnlen
+size_t strnlen(const char *s, size_t maxlen) {
+    size_t len;
+    for (len = 0; len < maxlen && s[len]; len++);
+    return len;
+}
+#endif
 /* message_center是fake head node,是方便链表编写的技巧,这样就不需要处理链表头的特殊情况 */
 static Publisher_t message_center = {
     .topic_name = "Message_Manager",

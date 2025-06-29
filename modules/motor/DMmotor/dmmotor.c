@@ -167,7 +167,10 @@ void DMMotorControlInit()
     for (size_t i = 0; i < idx; i++)
     {
         char dm_id_buff[2] = {0};
-        __itoa(i, dm_id_buff, 10);
+        sprintf(dm_id_buff, "%d", i);
+				
+				
+				
         strcat(dm_task_name, dm_id_buff);
         osThreadDef(dm_task_name, DMMotorTask, osPriorityNormal, 0, 128);
         dm_task_handle[i] = osThreadCreate(osThread(dm_task_name), dm_motor_instance[i]);

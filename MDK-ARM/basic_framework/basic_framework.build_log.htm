@@ -1,0 +1,873 @@
+<html>
+<body>
+<pre>
+<h1>�Vision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ��Vision V5.40.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1838088566@qq.com, 2, LIC=65ISZ-J9U4V-TGJ7T-R58Q3-PK1DR-NLBX3
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.40.0.3
+Toolchain Path:  C:\Users\18380\AppData\Local\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.40.0.3
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\CODES\Robomaster\HDU_basic_framework\MDK-ARM\basic_framework.uvprojx
+Project File Date:  06/29/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Users\18380\AppData\Local\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'basic_framework'
+assembling startup_stm32f407xx.s...
+compiling i2c.c...
+compiling gpio.c...
+compiling rng.c...
+compiling spi.c...
+compiling dma.c...
+compiling can.c...
+compiling rtc.c...
+compiling dac.c...
+compiling crc.c...
+compiling usart.c...
+compiling adc.c...
+compiling freertos.c...
+compiling tim.c...
+compiling usb_device.c...
+compiling main.c...
+..\application\robot.h(10): warning:  #1295-D: Deprecated declaration RobotInit - give arg types
+  void RobotInit();
+..\application\robot.h(16): warning:  #1295-D: Deprecated declaration RobotTask - give arg types
+  void RobotTask();
+..\application\robot.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Src/main.c: 5 warnings, 0 errors
+compiling usbd_conf.c...
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Src/usbd_conf.c: 2 warnings, 0 errors
+compiling usbd_desc.c...
+compiling usbd_cdc_if.c...
+compiling stm32f4xx_it.c...
+compiling stm32f4xx_hal_pcd_ex.c...
+compiling stm32f4xx_hal_msp.c...
+compiling stm32f4xx_hal_timebase_tim.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+compiling stm32f4xx_hal_flash_ex.c...
+compiling stm32f4xx_hal_flash.c...
+compiling stm32f4xx_hal_gpio.c...
+compiling stm32f4xx_hal_flash_ramfunc.c...
+compiling stm32f4xx_hal_pcd.c...
+compiling stm32f4xx_hal_rcc.c...
+compiling stm32f4xx_ll_usb.c...
+compiling stm32f4xx_hal_tim_ex.c...
+compiling stm32f4xx_ll_adc.c...
+compiling stm32f4xx_hal_tim.c...
+compiling stm32f4xx_hal_dma_ex.c...
+compiling stm32f4xx_hal_dma.c...
+compiling stm32f4xx_hal_pwr_ex.c...
+compiling stm32f4xx_hal_pwr.c...
+compiling stm32f4xx_hal.c...
+compiling stm32f4xx_hal_exti.c...
+compiling stm32f4xx_hal_adc_ex.c...
+compiling stm32f4xx_hal_i2c_ex.c...
+compiling stm32f4xx_hal_crc.c...
+compiling stm32f4xx_hal_adc.c...
+compiling stm32f4xx_hal_cortex.c...
+compiling stm32f4xx_hal_dac.c...
+compiling stm32f4xx_hal_dac_ex.c...
+compiling stm32f4xx_hal_rng.c...
+compiling croutine.c...
+compiling stm32f4xx_hal_can.c...
+compiling event_groups.c...
+compiling list.c...
+compiling timers.c...
+compiling stream_buffer.c...
+compiling heap_4.c...
+compiling queue.c...
+compiling tasks.c...
+compiling stm32f4xx_hal_i2c.c...
+compiling port.c...
+compiling cmsis_os.c...
+compiling bsp_adc.c...
+compiling bsp_tools.c...
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\bsp\bsp_tools.c(56): warning:  #1-D: last line of file ends without a newline
+  }
+..\bsp\bsp_tools.c(20): warning:  #550-D: variable "cbkid_list"  was set but never used
+  static osThreadId cbkid_list[MX_SIG_LIST_SIZE];
+..\bsp\bsp_tools.c: 4 warnings, 0 errors
+compiling stm32f4xx_hal_rtc.c...
+compiling stm32f4xx_hal_rtc_ex.c...
+compiling system_stm32f4xx.c...
+compiling stm32f4xx_hal_spi.c...
+compiling usbd_ioreq.c...
+compiling stm32f4xx_hal_uart.c...
+compiling bsp_log.c...
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\bsp\log\bsp_log.c: 2 warnings, 0 errors
+compiling usbd_core.c...
+compiling usbd_cdc.c...
+compiling usbd_ctlreq.c...
+compiling gimbal.c...
+..\application\gimbal\gimbal.h(8): warning:  #1295-D: Deprecated declaration GimbalInit - give arg types
+  void GimbalInit();
+..\application\gimbal\gimbal.h(14): warning:  #1295-D: Deprecated declaration GimbalTask - give arg types
+  void GimbalTask();
+..\application\gimbal\gimbal.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif // GIMBAL_H
+..\modules\master_machine\master_process.h(95): warning:  #1295-D: Deprecated declaration VisionSend - give arg types
+  void VisionSend();
+..\modules\master_machine\master_process.h(114): warning:  #1-D: last line of file ends without a newline
+  #endif // !MASTER_PROCESS_H
+..\application\robot_def.h(211): warning:  #1-D: last line of file ends without a newline
+  #endif // !ROBOT_DEF_H
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\algorithm\controller.h(136): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\daemon\daemon.h(60): warning:  #1295-D: Deprecated declaration DaemonTask - give arg types
+  void DaemonTask();
+..\modules\daemon\daemon.h(62): warning:  #1-D: last line of file ends without a newline
+  #endif // !MONITOR_H
+..\modules\motor\DJImotor\dji_motor.h(107): warning:  #1295-D: Deprecated declaration DJIMotorControl - give arg types
+  void DJIMotorControl();
+..\modules\message_center\message_center.h(85): warning:  #1-D: last line of file ends without a newline
+  #endif // !PUBSUB_H
+..\modules\general_def.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif // !GENERAL_DEF_H
+..\bsp\gpio\bsp_gpio.h(87): warning:  #1-D: last line of file ends without a newline
+  GPIO_PinState GPIORead(GPIOInstance *_instance);
+..\bsp\pwm\bsp_pwm.h(91): warning:  #1-D: last line of file ends without a newline
+  #endif // BSP_PWM_H
+..\modules\BMI088\bmi088.h(116): warning:  #1-D: last line of file ends without a newline
+  #endif // !__BMI088_H__
+..\application\gimbal\gimbal.c(33): warning:  #188-D: enumerated type mixed with another type
+                  .Improve = PID_Trapezoid_Intergral | PID_Integral_Limit | PID_Derivative_On_Measurement,
+..\application\gimbal\gimbal.c(42): warning:  #188-D: enumerated type mixed with another type
+                  .Improve = PID_Trapezoid_Intergral | PID_Integral_Limit | PID_Derivative_On_Measurement,
+..\application\gimbal\gimbal.c(54): warning:  #188-D: enumerated type mixed with another type
+              .close_loop_type = ANGLE_LOOP | SPEED_LOOP,
+..\application\gimbal\gimbal.c(69): warning:  #188-D: enumerated type mixed with another type
+                  .Improve = PID_Trapezoid_Intergral | PID_Integral_Limit | PID_Derivative_On_Measurement,
+..\application\gimbal\gimbal.c(77): warning:  #188-D: enumerated type mixed with another type
+                  .Improve = PID_Trapezoid_Intergral | PID_Integral_Limit | PID_Derivative_On_Measurement,
+..\application\gimbal\gimbal.c(89): warning:  #188-D: enumerated type mixed with another type
+              .close_loop_type = SPEED_LOOP | ANGLE_LOOP,
+..\application\gimbal\gimbal.c(154): warning:  #1-D: last line of file ends without a newline
+  }
+..\application\gimbal\gimbal.c: 25 warnings, 0 errors
+compiling shoot.c...
+..\application\shoot\shoot.h(8): warning:  #1295-D: Deprecated declaration ShootInit - give arg types
+  void ShootInit();
+..\application\shoot\shoot.h(14): warning:  #1295-D: Deprecated declaration ShootTask - give arg types
+  void ShootTask();
+..\application\shoot\shoot.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif // SHOOT_H
+..\modules\master_machine\master_process.h(95): warning:  #1295-D: Deprecated declaration VisionSend - give arg types
+  void VisionSend();
+..\modules\master_machine\master_process.h(114): warning:  #1-D: last line of file ends without a newline
+  #endif // !MASTER_PROCESS_H
+..\application\robot_def.h(211): warning:  #1-D: last line of file ends without a newline
+  #endif // !ROBOT_DEF_H
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\algorithm\controller.h(136): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\daemon\daemon.h(60): warning:  #1295-D: Deprecated declaration DaemonTask - give arg types
+  void DaemonTask();
+..\modules\daemon\daemon.h(62): warning:  #1-D: last line of file ends without a newline
+  #endif // !MONITOR_H
+..\modules\motor\DJImotor\dji_motor.h(107): warning:  #1295-D: Deprecated declaration DJIMotorControl - give arg types
+  void DJIMotorControl();
+..\modules\message_center\message_center.h(85): warning:  #1-D: last line of file ends without a newline
+  #endif // !PUBSUB_H
+..\modules\general_def.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif // !GENERAL_DEF_H
+..\application\shoot\shoot.c(51): warning:  #188-D: enumerated type mixed with another type
+              .close_loop_type = SPEED_LOOP | CURRENT_LOOP,
+..\application\shoot\shoot.c(96): warning:  #188-D: enumerated type mixed with another type
+              .close_loop_type = CURRENT_LOOP | SPEED_LOOP,
+..\application\shoot\shoot.c(213): warning:  #1-D: last line of file ends without a newline
+  }
+..\application\shoot\shoot.c(19): warning:  #550-D: variable "hibernate_time"  was set but never used
+  static float hibernate_time = 0, dead_time = 0;
+..\application\shoot\shoot.c(19): warning:  #550-D: variable "dead_time"  was set but never used
+  static float hibernate_time = 0, dead_time = 0;
+..\application\shoot\shoot.c: 20 warnings, 0 errors
+compiling chassis.c...
+..\application\chassis\chassis.h(8): warning:  #1295-D: Deprecated declaration ChassisInit - give arg types
+  void ChassisInit();
+..\application\chassis\chassis.h(14): warning:  #1295-D: Deprecated declaration ChassisTask - give arg types
+  void ChassisTask();
+..\application\chassis\chassis.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif // CHASSIS_H
+..\modules\master_machine\master_process.h(95): warning:  #1295-D: Deprecated declaration VisionSend - give arg types
+  void VisionSend();
+..\modules\master_machine\master_process.h(114): warning:  #1-D: last line of file ends without a newline
+  #endif // !MASTER_PROCESS_H
+..\application\robot_def.h(211): warning:  #1-D: last line of file ends without a newline
+  #endif // !ROBOT_DEF_H
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\algorithm\controller.h(136): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\daemon\daemon.h(60): warning:  #1295-D: Deprecated declaration DaemonTask - give arg types
+  void DaemonTask();
+..\modules\daemon\daemon.h(62): warning:  #1-D: last line of file ends without a newline
+  #endif // !MONITOR_H
+..\modules\motor\DJImotor\dji_motor.h(107): warning:  #1295-D: Deprecated declaration DJIMotorControl - give arg types
+  void DJIMotorControl();
+..\modules\message_center\message_center.h(85): warning:  #1-D: last line of file ends without a newline
+  #endif // !PUBSUB_H
+..\modules\referee\referee_task.h(17): warning:  #1295-D: Deprecated declaration MyUIInit - give arg types
+  void MyUIInit();
+..\modules\referee\referee_task.h(23): warning:  #1295-D: Deprecated declaration UITask - give arg types
+  void UITask();
+..\modules\general_def.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif // !GENERAL_DEF_H
+..\application\chassis\chassis.c(69): warning:  #188-D: enumerated type mixed with another type
+                  .Improve = PID_Trapezoid_Intergral | PID_Integral_Limit | PID_Derivative_On_Measurement,
+..\application\chassis\chassis.c(77): warning:  #188-D: enumerated type mixed with another type
+                  .Improve = PID_Trapezoid_Intergral | PID_Integral_Limit | PID_Derivative_On_Measurement,
+..\application\chassis\chassis.c(85): warning:  #188-D: enumerated type mixed with another type
+              .close_loop_type = SPEED_LOOP | CURRENT_LOOP,
+..\application\chassis\chassis.c(257): warning:  #1-D: last line of file ends without a newline
+  }
+..\application\chassis\chassis.c(45): warning:  #550-D: variable "referee_data"  was set but never used
+  static referee_info_t* referee_data; // 用于获取裁判系统的数�?
+..\application\chassis\chassis.c(48): warning:  #550-D: variable "cap"  was set but never used
+  static SuperCapInstance *cap;                                       // 超级电容
+..\application\chassis\chassis.c: 23 warnings, 0 errors
+compiling robot_cmd.c...
+..\modules\master_machine\master_process.h(95): warning:  #1295-D: Deprecated declaration VisionSend - give arg types
+  void VisionSend();
+..\modules\master_machine\master_process.h(114): warning:  #1-D: last line of file ends without a newline
+  #endif // !MASTER_PROCESS_H
+..\application\robot_def.h(211): warning:  #1-D: last line of file ends without a newline
+  #endif // !ROBOT_DEF_H
+..\application\cmd\robot_cmd.h(9): warning:  #1295-D: Deprecated declaration RobotCMDInit - give arg types
+  void RobotCMDInit();
+..\application\cmd\robot_cmd.h(15): warning:  #1295-D: Deprecated declaration RobotCMDTask - give arg types
+  void RobotCMDTask();
+..\application\cmd\robot_cmd.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif // !ROBOT_CMD_H
+..\modules\remote\remote_control.h(131): warning:  #1295-D: Deprecated declaration RemoteControlIsOnline - give arg types
+  uint8_t RemoteControlIsOnline();
+..\modules\message_center\message_center.h(85): warning:  #1-D: last line of file ends without a newline
+  #endif // !PUBSUB_H
+..\modules\general_def.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif // !GENERAL_DEF_H
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\algorithm\controller.h(136): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\daemon\daemon.h(60): warning:  #1295-D: Deprecated declaration DaemonTask - give arg types
+  void DaemonTask();
+..\modules\daemon\daemon.h(62): warning:  #1-D: last line of file ends without a newline
+  #endif // !MONITOR_H
+..\modules\motor\DJImotor\dji_motor.h(107): warning:  #1295-D: Deprecated declaration DJIMotorControl - give arg types
+  void DJIMotorControl();
+..\bsp\gpio\bsp_gpio.h(87): warning:  #1-D: last line of file ends without a newline
+  GPIO_PinState GPIORead(GPIOInstance *_instance);
+..\bsp\pwm\bsp_pwm.h(91): warning:  #1-D: last line of file ends without a newline
+  #endif // BSP_PWM_H
+..\modules\BMI088\bmi088.h(116): warning:  #1-D: last line of file ends without a newline
+  #endif // !__BMI088_H__
+..\application\cmd\robot_cmd.c(221): warning:  #188-D: enumerated type mixed with another type
+          shoot_cmd_send.bullet_speed = 15;
+..\application\cmd\robot_cmd.c(224): warning:  #188-D: enumerated type mixed with another type
+          shoot_cmd_send.bullet_speed = 18;
+..\application\cmd\robot_cmd.c(227): warning:  #188-D: enumerated type mixed with another type
+          shoot_cmd_send.bullet_speed = 30;
+..\application\cmd\robot_cmd.c: 22 warnings, 0 errors
+compiling bsp_can.c...
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\bsp\can\bsp_can.c: 3 warnings, 0 errors
+compiling bsp_dwt.c...
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\bsp\dwt\bsp_dwt.c: 2 warnings, 0 errors
+compiling robot.c...
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\bsp\usb\bsp_usb.h(30): warning:  #1-D: last line of file ends without a newline
+  void USBTransmit(uint8_t *buffer, uint16_t len); // 通过usb发送数�?
+..\application\robot.h(10): warning:  #1295-D: Deprecated declaration RobotInit - give arg types
+  void RobotInit();
+..\application\robot.h(16): warning:  #1295-D: Deprecated declaration RobotTask - give arg types
+  void RobotTask();
+..\application\robot.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Middlewares/ST/ARM/DSP/Inc/arm_math.h(4865): warning:  #3108-D: attribute "__packed__" does not apply here
+      __SIMD32_TYPE *vstate;
+../Middlewares/ST/ARM/DSP/Inc/arm_math.h(4873): warning:  #3108-D: attribute "__packed__" does not apply here
+      vstate = __SIMD32_CONST(S->state);
+..\modules\master_machine\master_process.h(95): warning:  #1295-D: Deprecated declaration VisionSend - give arg types
+  void VisionSend();
+..\modules\master_machine\master_process.h(114): warning:  #1-D: last line of file ends without a newline
+  #endif // !MASTER_PROCESS_H
+..\application\robot_def.h(211): warning:  #1-D: last line of file ends without a newline
+  #endif // !ROBOT_DEF_H
+..\modules\motor\motor_task.h(22): warning:  #1295-D: Deprecated declaration MotorControlTask - give arg types
+  void MotorControlTask();
+..\modules\referee\referee_task.h(17): warning:  #1295-D: Deprecated declaration MyUIInit - give arg types
+  void MyUIInit();
+..\modules\referee\referee_task.h(23): warning:  #1295-D: Deprecated declaration UITask - give arg types
+  void UITask();
+..\modules\daemon\daemon.h(60): warning:  #1295-D: Deprecated declaration DaemonTask - give arg types
+  void DaemonTask();
+..\modules\daemon\daemon.h(62): warning:  #1-D: last line of file ends without a newline
+  #endif // !MONITOR_H
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\modules\algorithm\controller.h(136): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\motor\HTmotor\HT04.h(93): warning:  #1295-D: Deprecated declaration HTMotorControlInit - give arg types
+  void HTMotorControlInit();
+..\modules\motor\HTmotor\HT04.h(124): warning:  #1-D: last line of file ends without a newline
+  #endif // !HT04_H#define HT04_H
+..\bsp\pwm\bsp_pwm.h(91): warning:  #1-D: last line of file ends without a newline
+  #endif // BSP_PWM_H
+..\modules\alarm\buzzer.h(56): warning:  #1295-D: Deprecated declaration BuzzerInit - give arg types
+  void BuzzerInit();
+..\modules\alarm\buzzer.h(57): warning:  #1295-D: Deprecated declaration BuzzerTask - give arg types
+  void BuzzerTask();
+..\application\robot.c(9): warning:  #161-D: unrecognized #pragma
+  #pragma message "check if you have configured the parameters in robot_def.h, IF NOT, please refer to the comments AND DO IT, otherwise the robot will have FATAL ERRORS!!!"
+..\application\chassis\chassis.h(8): warning:  #1295-D: Deprecated declaration ChassisInit - give arg types
+  void ChassisInit();
+..\application\chassis\chassis.h(14): warning:  #1295-D: Deprecated declaration ChassisTask - give arg types
+  void ChassisTask();
+..\application\chassis\chassis.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif // CHASSIS_H
+..\application\gimbal\gimbal.h(8): warning:  #1295-D: Deprecated declaration GimbalInit - give arg types
+  void GimbalInit();
+..\application\gimbal\gimbal.h(14): warning:  #1295-D: Deprecated declaration GimbalTask - give arg types
+  void GimbalTask();
+..\application\gimbal\gimbal.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif // GIMBAL_H
+..\application\shoot\shoot.h(8): warning:  #1295-D: Deprecated declaration ShootInit - give arg types
+  void ShootInit();
+..\application\shoot\shoot.h(14): warning:  #1295-D: Deprecated declaration ShootTask - give arg types
+  void ShootTask();
+..\application\shoot\shoot.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif // SHOOT_H
+..\application\cmd\robot_cmd.h(9): warning:  #1295-D: Deprecated declaration RobotCMDInit - give arg types
+  void RobotCMDInit();
+..\application\cmd\robot_cmd.h(15): warning:  #1295-D: Deprecated declaration RobotCMDTask - give arg types
+  void RobotCMDTask();
+..\application\cmd\robot_cmd.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif // !ROBOT_CMD_H
+..\application\robot.c(60): warning:  #1-D: last line of file ends without a newline
+  }
+..\application\robot.c: 37 warnings, 0 errors
+compiling bsp_flash.c...
+compiling bsp_gpio.c...
+..\bsp\gpio\bsp_gpio.h(87): warning:  #1-D: last line of file ends without a newline
+  GPIO_PinState GPIORead(GPIOInstance *_instance);
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\bsp\gpio\bsp_gpio.c: 2 warnings, 0 errors
+compiling bsp_iic.c...
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\bsp\iic\bsp_iic.c(102): warning:  #111-D: statement is unreachable
+          break;
+..\bsp\iic\bsp_iic.c: 2 warnings, 0 errors
+compiling kalman_filter.c...
+compiling bsp_spi.c...
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\bsp\spi\bsp_spi.c(61): warning:  #111-D: statement is unreachable
+          break;
+..\bsp\spi\bsp_spi.c(88): warning:  #111-D: statement is unreachable
+          break;
+..\bsp\spi\bsp_spi.c(135): warning:  #111-D: statement is unreachable
+          break;
+..\bsp\spi\bsp_spi.c: 4 warnings, 0 errors
+compiling bsp_pwm.c...
+..\bsp\pwm\bsp_pwm.h(91): warning:  #1-D: last line of file ends without a newline
+  #endif // BSP_PWM_H
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\bsp\pwm\bsp_pwm.c(109): warning:  #1-D: last line of file ends without a newline
+  }
+..\bsp\pwm\bsp_pwm.c: 3 warnings, 0 errors
+compiling QuaternionEKF.c...
+compiling bsp_usart.c...
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\bsp\usart\bsp_usart.c(78): warning:  #111-D: statement is unreachable
+          break;
+..\bsp\usart\bsp_usart.c(139): warning:  #1-D: last line of file ends without a newline
+  }
+..\bsp\usart\bsp_usart.c: 5 warnings, 0 errors
+compiling buzzer.c...
+..\bsp\pwm\bsp_pwm.h(91): warning:  #1-D: last line of file ends without a newline
+  #endif // BSP_PWM_H
+..\modules\alarm\buzzer.h(56): warning:  #1295-D: Deprecated declaration BuzzerInit - give arg types
+  void BuzzerInit();
+..\modules\alarm\buzzer.h(57): warning:  #1295-D: Deprecated declaration BuzzerTask - give arg types
+  void BuzzerTask();
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\alarm\buzzer.c: 5 warnings, 0 errors
+compiling bsp_usb.c...
+..\bsp\usb\bsp_usb.h(30): warning:  #1-D: last line of file ends without a newline
+  void USBTransmit(uint8_t *buffer, uint16_t len); // 通过usb发送数�?
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\bsp\usb\bsp_usb.c: 3 warnings, 0 errors
+compiling controller.c...
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\algorithm\controller.h(136): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\modules\algorithm\controller.c(208): warning:  #1-D: last line of file ends without a newline
+  }
+..\modules\algorithm\controller.c: 6 warnings, 0 errors
+compiling message_center.c...
+..\modules\message_center\message_center.h(85): warning:  #1-D: last line of file ends without a newline
+  #endif // !PUBSUB_H
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\message_center\message_center.c(124): warning:  #1-D: last line of file ends without a newline
+  }
+..\modules\message_center\message_center.c: 4 warnings, 0 errors
+compiling crc16.c...
+compiling crc8.c...
+compiling crc_ref.c...
+compiling HC05.c...
+..\modules\bluetooth\HC05.c(58): warning:  #1-D: last line of file ends without a newline
+  }
+..\modules\bluetooth\HC05.c(12): warning:  #550-D: variable "hc05_init_flag"  was set but never used
+  static uint8_t hc05_init_flag = 0;  // HC05初始化标志位
+..\modules\bluetooth\HC05.c: 2 warnings, 0 errors
+compiling user_lib.c...
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\modules\algorithm\user_lib.c: 1 warning, 0 errors
+compiling can_comm.c...
+..\modules\daemon\daemon.h(60): warning:  #1295-D: Deprecated declaration DaemonTask - give arg types
+  void DaemonTask();
+..\modules\daemon\daemon.h(62): warning:  #1-D: last line of file ends without a newline
+  #endif // !MONITOR_H
+..\modules\can_comm\can_comm.h(92): warning:  #1-D: last line of file ends without a newline
+  #endif // !CAN_COMM_H
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\can_comm\can_comm.c: 6 warnings, 0 errors
+compiling std_cmd.c...
+compiling daemon.c...
+..\modules\daemon\daemon.h(60): warning:  #1295-D: Deprecated declaration DaemonTask - give arg types
+  void DaemonTask();
+..\modules\daemon\daemon.h(62): warning:  #1-D: last line of file ends without a newline
+  #endif // !MONITOR_H
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\bsp\pwm\bsp_pwm.h(91): warning:  #1-D: last line of file ends without a newline
+  #endif // BSP_PWM_H
+..\modules\alarm\buzzer.h(56): warning:  #1295-D: Deprecated declaration BuzzerInit - give arg types
+  void BuzzerInit();
+..\modules\alarm\buzzer.h(57): warning:  #1295-D: Deprecated declaration BuzzerTask - give arg types
+  void BuzzerTask();
+..\modules\daemon\daemon.c: 8 warnings, 0 errors
+compiling BMI088driver.c...
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\imu\BMI088driver.c(8): warning:  #161-D: unrecognized #pragma
+  #pragma message "this is a legacy support. test the new BMI088 module as soon as possible."
+..\modules\imu\BMI088driver.c: 3 warnings, 0 errors
+compiling unicomm.c...
+compiling bmi088.c...
+..\bsp\gpio\bsp_gpio.h(87): warning:  #1-D: last line of file ends without a newline
+  GPIO_PinState GPIORead(GPIOInstance *_instance);
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\algorithm\controller.h(136): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\bsp\pwm\bsp_pwm.h(91): warning:  #1-D: last line of file ends without a newline
+  #endif // BSP_PWM_H
+..\modules\BMI088\bmi088.h(116): warning:  #1-D: last line of file ends without a newline
+  #endif // !__BMI088_H__
+..\modules\daemon\daemon.h(60): warning:  #1295-D: Deprecated declaration DaemonTask - give arg types
+  void DaemonTask();
+..\modules\daemon\daemon.h(62): warning:  #1-D: last line of file ends without a newline
+  #endif // !MONITOR_H
+..\modules\BMI088\bmi088.c(129): warning:  #188-D: enumerated type mixed with another type
+      BMI088_ERORR_CODE_e error = 0;
+..\modules\BMI088\bmi088.c(168): warning:  #188-D: enumerated type mixed with another type
+      BMI088_ERORR_CODE_e error = 0;
+..\modules\BMI088\bmi088.c(231): warning:  #177-D: variable "whoami_check"  was declared but never referenced
+      uint8_t whoami_check = 0;
+..\modules\BMI088\bmi088.c(297): warning:  #161-D: unrecognized #pragma
+  #pragma message "REMEMBER TO SET PRE CALIBRATE PARAMETER IF YOU CHOOSE NOT TO CALIBRATE"
+..\modules\BMI088\bmi088.c(331): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+              if (DWT_GetTimeline_s() - startTime > 12.01)
+..\modules\BMI088\bmi088.c(405): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      _bmi088->acc_coef *= 9.805 / _bmi088->gNorm;
+..\modules\BMI088\bmi088.c(6): warning:  #177-D: variable "bmi088_daemon_instance"  was declared but never referenced
+  static DaemonInstance *bmi088_daemon_instance;
+..\modules\BMI088\bmi088.c: 16 warnings, 0 errors
+compiling BMI088Middleware.c...
+compiling ist8310.c...
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\bsp\gpio\bsp_gpio.h(87): warning:  #1-D: last line of file ends without a newline
+  GPIO_PinState GPIORead(GPIOInstance *_instance);
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\modules\ist8310\ist8310.c(8): warning:  #550-D: variable "ist8310_instance"  was set but never used
+  static IST8310Instance *ist8310_instance = NULL; // 用于存储IST8310实例的指�?
+..\modules\ist8310\ist8310.c: 5 warnings, 0 errors
+compiling master_process.c...
+..\modules\master_machine\master_process.h(95): warning:  #1295-D: Deprecated declaration VisionSend - give arg types
+  void VisionSend();
+..\modules\master_machine\master_process.h(114): warning:  #1-D: last line of file ends without a newline
+  #endif // !MASTER_PROCESS_H
+..\modules\daemon\daemon.h(60): warning:  #1295-D: Deprecated declaration DaemonTask - give arg types
+  void DaemonTask();
+..\modules\daemon\daemon.h(62): warning:  #1-D: last line of file ends without a newline
+  #endif // !MONITOR_H
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\application\robot_def.h(211): warning:  #1-D: last line of file ends without a newline
+  #endif // !ROBOT_DEF_H
+..\bsp\usb\bsp_usb.h(30): warning:  #1-D: last line of file ends without a newline
+  void USBTransmit(uint8_t *buffer, uint16_t len); // 通过usb发送数�?
+..\modules\master_machine\master_process.c(19): warning:  #550-D: variable "vision_daemon_instance"  was set but never used
+  static DaemonInstance *vision_daemon_instance;
+..\modules\master_machine\master_process.c: 9 warnings, 0 errors
+compiling seasky_protocol.c...
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\modules\master_machine\seasky_protocol.c: 1 warning, 0 errors
+compiling oled.c...
+..\modules\oled\oled.c(378): warning:  #1-D: last line of file ends without a newline
+  }
+..\modules\oled\oled.c: 1 warning, 0 errors
+compiling ins_task.c...
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\algorithm\controller.h(136): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\general_def.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif // !GENERAL_DEF_H
+..\modules\master_machine\master_process.h(95): warning:  #1295-D: Deprecated declaration VisionSend - give arg types
+  void VisionSend();
+..\modules\master_machine\master_process.h(114): warning:  #1-D: last line of file ends without a newline
+  #endif // !MASTER_PROCESS_H
+..\modules\imu\ins_task.c(109): warning:  #188-D: enumerated type mixed with another type
+                                  .Improve = 0x01}; // enable integratiaon limit
+..\modules\imu\ins_task.c: 8 warnings, 0 errors
+compiling motor_task.c...
+..\modules\motor\motor_task.h(22): warning:  #1295-D: Deprecated declaration MotorControlTask - give arg types
+  void MotorControlTask();
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\algorithm\controller.h(136): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\daemon\daemon.h(60): warning:  #1295-D: Deprecated declaration DaemonTask - give arg types
+  void DaemonTask();
+..\modules\daemon\daemon.h(62): warning:  #1-D: last line of file ends without a newline
+  #endif // !MONITOR_H
+..\modules\motor\LKmotor\LK9025.h(80): warning:  #1295-D: Deprecated declaration LKMotorControl - give arg types
+  void LKMotorControl();
+..\modules\motor\HTmotor\HT04.h(93): warning:  #1295-D: Deprecated declaration HTMotorControlInit - give arg types
+  void HTMotorControlInit();
+..\modules\motor\HTmotor\HT04.h(124): warning:  #1-D: last line of file ends without a newline
+  #endif // !HT04_H#define HT04_H
+..\modules\motor\DJImotor\dji_motor.h(107): warning:  #1295-D: Deprecated declaration DJIMotorControl - give arg types
+  void DJIMotorControl();
+..\bsp\pwm\bsp_pwm.h(91): warning:  #1-D: last line of file ends without a newline
+  #endif // BSP_PWM_H
+..\modules\motor\servo_motor\servo_motor.h(45): warning:  #1-D: last line of file ends without a newline
+  #endif // SERVO_MOTOR_H
+..\modules\motor\motor_task.c: 13 warnings, 0 errors
+compiling step_motor.c...
+compiling SEGGER_RTT_printf.c...
+compiling SEGGER_RTT.c...
+compiling referee_task.c...
+..\modules\master_machine\master_process.h(95): warning:  #1295-D: Deprecated declaration VisionSend - give arg types
+  void VisionSend();
+..\modules\master_machine\master_process.h(114): warning:  #1-D: last line of file ends without a newline
+  #endif // !MASTER_PROCESS_H
+..\application\robot_def.h(211): warning:  #1-D: last line of file ends without a newline
+  #endif // !ROBOT_DEF_H
+..\modules\referee\referee_task.h(17): warning:  #1295-D: Deprecated declaration MyUIInit - give arg types
+  void MyUIInit();
+..\modules\referee\referee_task.h(23): warning:  #1295-D: Deprecated declaration UITask - give arg types
+  void UITask();
+..\modules\referee\referee_task.c(139): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          _Interactive_data->Chassis_Power_Data.chassis_power_mx += 3.5;
+..\modules\referee\referee_task.c: 6 warnings, 0 errors
+compiling referee_UI.c...
+..\modules\master_machine\master_process.h(95): warning:  #1295-D: Deprecated declaration VisionSend - give arg types
+  void VisionSend();
+..\modules\master_machine\master_process.h(114): warning:  #1-D: last line of file ends without a newline
+  #endif // !MASTER_PROCESS_H
+..\application\robot_def.h(211): warning:  #1-D: last line of file ends without a newline
+  #endif // !ROBOT_DEF_H
+..\modules\referee\referee_UI.c: 3 warnings, 0 errors
+compiling remote_control.c...
+..\modules\remote\remote_control.h(131): warning:  #1295-D: Deprecated declaration RemoteControlIsOnline - give arg types
+  uint8_t RemoteControlIsOnline();
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\modules\daemon\daemon.h(60): warning:  #1295-D: Deprecated declaration DaemonTask - give arg types
+  void DaemonTask();
+..\modules\daemon\daemon.h(62): warning:  #1-D: last line of file ends without a newline
+  #endif // !MONITOR_H
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\remote\remote_control.c(136): warning:  #1-D: last line of file ends without a newline
+  }
+..\modules\remote\remote_control.c: 7 warnings, 0 errors
+compiling rm_referee.c...
+..\modules\master_machine\master_process.h(95): warning:  #1295-D: Deprecated declaration VisionSend - give arg types
+  void VisionSend();
+..\modules\master_machine\master_process.h(114): warning:  #1-D: last line of file ends without a newline
+  #endif // !MASTER_PROCESS_H
+..\application\robot_def.h(211): warning:  #1-D: last line of file ends without a newline
+  #endif // !ROBOT_DEF_H
+..\modules\daemon\daemon.h(60): warning:  #1295-D: Deprecated declaration DaemonTask - give arg types
+  void DaemonTask();
+..\modules\daemon\daemon.h(62): warning:  #1-D: last line of file ends without a newline
+  #endif // !MONITOR_H
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\referee\rm_referee.c: 7 warnings, 0 errors
+compiling super_cap.c...
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\modules\super_cap\super_cap.c(44): warning:  #1-D: last line of file ends without a newline
+  }
+..\modules\super_cap\super_cap.c: 2 warnings, 0 errors
+compiling tfminiplus.c...
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\TFminiPlus\tfminiplus.c: 2 warnings, 0 errors
+compiling dji_motor.c...
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\algorithm\controller.h(136): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\daemon\daemon.h(60): warning:  #1295-D: Deprecated declaration DaemonTask - give arg types
+  void DaemonTask();
+..\modules\daemon\daemon.h(62): warning:  #1-D: last line of file ends without a newline
+  #endif // !MONITOR_H
+..\modules\motor\DJImotor\dji_motor.h(107): warning:  #1295-D: Deprecated declaration DJIMotorControl - give arg types
+  void DJIMotorControl();
+..\modules\general_def.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif // !GENERAL_DEF_H
+..\modules\motor\DJImotor\dji_motor.c: 8 warnings, 0 errors
+compiling dmmotor.c...
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\algorithm\controller.h(136): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\daemon\daemon.h(60): warning:  #1295-D: Deprecated declaration DaemonTask - give arg types
+  void DaemonTask();
+..\modules\daemon\daemon.h(62): warning:  #1-D: last line of file ends without a newline
+  #endif // !MONITOR_H
+..\modules\motor\DMmotor\dmmotor.h(75): warning:  #1295-D: Deprecated declaration DMMotorControlInit - give arg types
+  void DMMotorControlInit();
+..\modules\motor\DMmotor\dmmotor.h(76): warning:  #1-D: last line of file ends without a newline
+  #endif // !DMMOTOR
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\modules\general_def.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif // !GENERAL_DEF_H
+..\modules\motor\DMmotor\dmmotor.c(178): warning:  #1-D: last line of file ends without a newline
+  }
+..\modules\motor\DMmotor\dmmotor.c(13): warning:  #550-D: variable "dm_task_handle"  was set but never used
+  static osThreadId dm_task_handle[DM_MOTOR_CNT];
+..\modules\motor\DMmotor\dmmotor.c: 12 warnings, 0 errors
+compiling LK9025.c...
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\algorithm\controller.h(136): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\daemon\daemon.h(60): warning:  #1295-D: Deprecated declaration DaemonTask - give arg types
+  void DaemonTask();
+..\modules\daemon\daemon.h(62): warning:  #1-D: last line of file ends without a newline
+  #endif // !MONITOR_H
+..\modules\motor\LKmotor\LK9025.h(80): warning:  #1295-D: Deprecated declaration LKMotorControl - give arg types
+  void LKMotorControl();
+..\modules\general_def.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif // !GENERAL_DEF_H
+..\modules\motor\LKmotor\LK9025.c: 8 warnings, 0 errors
+compiling HT04.c...
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\algorithm\controller.h(136): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\daemon\daemon.h(60): warning:  #1295-D: Deprecated declaration DaemonTask - give arg types
+  void DaemonTask();
+..\modules\daemon\daemon.h(62): warning:  #1-D: last line of file ends without a newline
+  #endif // !MONITOR_H
+..\modules\motor\HTmotor\HT04.h(93): warning:  #1295-D: Deprecated declaration HTMotorControlInit - give arg types
+  void HTMotorControlInit();
+..\modules\motor\HTmotor\HT04.h(124): warning:  #1-D: last line of file ends without a newline
+  #endif // !HT04_H#define HT04_H
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\modules\general_def.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif // !GENERAL_DEF_H
+..\modules\motor\HTmotor\HT04.c(13): warning:  #550-D: variable "ht_task_handle"  was set but never used
+  static osThreadId ht_task_handle[HT_MOTOR_CNT];
+..\modules\motor\HTmotor\HT04.c: 11 warnings, 0 errors
+compiling servo_motor.c...
+..\bsp\pwm\bsp_pwm.h(91): warning:  #1-D: last line of file ends without a newline
+  #endif // BSP_PWM_H
+..\modules\motor\servo_motor\servo_motor.h(45): warning:  #1-D: last line of file ends without a newline
+  #endif // SERVO_MOTOR_H
+..\MDK-ARM\memory.h(1): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+..\bsp\log\bsp_log.h(14): warning:  #1295-D: Deprecated declaration BSPLogInit - give arg types
+  void BSPLogInit();
+..\bsp\log\bsp_log.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\modules\motor\servo_motor\servo_motor.c(12): warning:  #1295-D: Deprecated declaration DecodeServo - give arg types
+  static void DecodeServo();
+..\modules\motor\servo_motor\servo_motor.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=76932 RO-data=6084 RW-data=1900 ZI-data=76284  
+FromELF: creating hex file...
+"basic_framework\basic_framework.axf" - 0 Error(s), 324 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.3.0.0.pack
+                Keil::STM32F4xx_DFP@3.0.0
+                STMicroelectronics STM32F4 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_basic_framework
+  C:/Users/18380/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Build Time Elapsed:  00:00:28
+</pre>
+</body>
+</html>
