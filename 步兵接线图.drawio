@@ -916,11 +916,68 @@
         <mxCell id="BGlrOWXb_K7X2N9-GRrc-3" value="底盘总分电板" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="1890" width="700" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="5BIK-oqMEjECMF3y-dbu-2" value="XT30入(裁判系统)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="BGlrOWXb_K7X2N9-GRrc-3">
+        <mxCell id="5BIK-oqMEjECMF3y-dbu-2" value="XT30入(能源管理)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="BGlrOWXb_K7X2N9-GRrc-3">
           <mxGeometry x="280" y="75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5BIK-oqMEjECMF3y-dbu-9" value="XT60出（9025）" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;" vertex="1" parent="BGlrOWXb_K7X2N9-GRrc-3">
           <mxGeometry x="270" y="451" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5BIK-oqMEjECMF3y-dbu-10" value="XT30&lt;div&gt;（功率管理）&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="BGlrOWXb_K7X2N9-GRrc-3">
+          <mxGeometry x="10" y="150" width="60" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5BIK-oqMEjECMF3y-dbu-11" value="XT30&lt;div&gt;（分电板1）&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="BGlrOWXb_K7X2N9-GRrc-3">
+          <mxGeometry x="620" y="150" width="60" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5BIK-oqMEjECMF3y-dbu-12" value="XT30&lt;div&gt;（分电板2）&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="BGlrOWXb_K7X2N9-GRrc-3">
+          <mxGeometry x="620" y="321" width="60" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5BIK-oqMEjECMF3y-dbu-14" value="XT30&lt;div&gt;（功率管理）&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="BGlrOWXb_K7X2N9-GRrc-3">
+          <mxGeometry x="10" y="321" width="60" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5BIK-oqMEjECMF3y-dbu-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BGlrOWXb_K7X2N9-GRrc-3" source="5BIK-oqMEjECMF3y-dbu-15" target="5BIK-oqMEjECMF3y-dbu-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5BIK-oqMEjECMF3y-dbu-15" value="CAN2(9025)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="BGlrOWXb_K7X2N9-GRrc-3">
+          <mxGeometry x="490" y="180" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5BIK-oqMEjECMF3y-dbu-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BGlrOWXb_K7X2N9-GRrc-3" source="5BIK-oqMEjECMF3y-dbu-16" target="5BIK-oqMEjECMF3y-dbu-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5BIK-oqMEjECMF3y-dbu-16" value="CAN2(滑环)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="BGlrOWXb_K7X2N9-GRrc-3">
+          <mxGeometry x="150" y="180" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5BIK-oqMEjECMF3y-dbu-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BGlrOWXb_K7X2N9-GRrc-3" source="5BIK-oqMEjECMF3y-dbu-17" target="5BIK-oqMEjECMF3y-dbu-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5BIK-oqMEjECMF3y-dbu-17" value="CAN2(备用)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="BGlrOWXb_K7X2N9-GRrc-3">
+          <mxGeometry x="300" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5BIK-oqMEjECMF3y-dbu-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BGlrOWXb_K7X2N9-GRrc-3" source="5BIK-oqMEjECMF3y-dbu-18" target="5BIK-oqMEjECMF3y-dbu-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5BIK-oqMEjECMF3y-dbu-18" value="CAN2(分电板1)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="BGlrOWXb_K7X2N9-GRrc-3">
+          <mxGeometry x="490" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5BIK-oqMEjECMF3y-dbu-19" value="CAN2(分电板2)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="BGlrOWXb_K7X2N9-GRrc-3">
+          <mxGeometry x="490" y="350" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5BIK-oqMEjECMF3y-dbu-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BGlrOWXb_K7X2N9-GRrc-3" source="5BIK-oqMEjECMF3y-dbu-20" target="5BIK-oqMEjECMF3y-dbu-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5BIK-oqMEjECMF3y-dbu-20" value="CAN2(裁判系统)&lt;div&gt;4pin&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="BGlrOWXb_K7X2N9-GRrc-3">
+          <mxGeometry x="310" y="260" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5BIK-oqMEjECMF3y-dbu-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BGlrOWXb_K7X2N9-GRrc-3" source="5BIK-oqMEjECMF3y-dbu-25" target="5BIK-oqMEjECMF3y-dbu-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5BIK-oqMEjECMF3y-dbu-25" value="CAN2(备用)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="BGlrOWXb_K7X2N9-GRrc-3">
+          <mxGeometry x="150" y="270" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5BIK-oqMEjECMF3y-dbu-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BGlrOWXb_K7X2N9-GRrc-3" source="5BIK-oqMEjECMF3y-dbu-26" target="5BIK-oqMEjECMF3y-dbu-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5BIK-oqMEjECMF3y-dbu-26" value="CAN2(备用)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="BGlrOWXb_K7X2N9-GRrc-3">
+          <mxGeometry x="150" y="350" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BGlrOWXb_K7X2N9-GRrc-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="BGlrOWXb_K7X2N9-GRrc-17" target="BGlrOWXb_K7X2N9-GRrc-10" edge="1">
           <mxGeometry relative="1" as="geometry">
