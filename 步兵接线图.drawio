@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="28.0.5">
   <diagram name="第 1 页" id="aTCW8c7fX1OC72tKNPOs">
-    <mxGraphModel dx="4219" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4832" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -189,13 +189,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EB4nh91A7E_JD2Sifpeh-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="6ucZ4N3q14ly0Ma9brnI-1" source="EB4nh91A7E_JD2Sifpeh-102" target="EB4nh91A7E_JD2Sifpeh-21" edge="1">
+        <mxCell id="EB4nh91A7E_JD2Sifpeh-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="6ucZ4N3q14ly0Ma9brnI-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="440" y="355" />
-              <mxPoint x="440" y="560" />
-              <mxPoint x="400" y="560" />
+              <mxPoint x="440" y="370" />
+              <mxPoint x="440" y="575" />
+              <mxPoint x="400" y="575" />
             </Array>
+            <mxPoint x="469.9999999999991" y="370" as="sourcePoint" />
+            <mxPoint x="400.0000000000009" y="535" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EB4nh91A7E_JD2Sifpeh-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=diamond;endFill=0;dashPattern=1 1;" parent="6ucZ4N3q14ly0Ma9brnI-1" source="EB4nh91A7E_JD2Sifpeh-145" target="EB4nh91A7E_JD2Sifpeh-63" edge="1">
@@ -1077,6 +1079,9 @@
         </mxCell>
         <mxCell id="BGlrOWXb_K7X2N9-GRrc-45" value="JP7" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="290" y="2470" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5BIK-oqMEjECMF3y-dbu-30" value="MINIPC分电板" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="1980" width="170" height="470" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
